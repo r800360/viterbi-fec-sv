@@ -1,5 +1,3 @@
-[fec_hamming] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:01 (1)
-[fec_hamming] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
 [fec_hamming] summary: engine_0 (smtbmc z3) returned pass for basecase
 [fec_hamming] summary: engine_0 (smtbmc z3) returned pass for induction
 [fec_hamming] summary: engine_0 did not produce any traces

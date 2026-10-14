@@ -1,5 +1,3 @@
-[fec_viterbi_offbyone] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:01 (1)
-[fec_viterbi_offbyone] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
 [fec_viterbi_offbyone] summary: engine_0 (smtbmc z3) returned FAIL
 [fec_viterbi_offbyone] summary: counterexample trace: fec_viterbi_offbyone/engine_0/trace.vcd
 [fec_viterbi_offbyone] summary:   failed assertion viterbi_clean._witness_.check_assert_fec_formal_sv_72_387 at fec_formal.sv:72.32-72.54 in step 11

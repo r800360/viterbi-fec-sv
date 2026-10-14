@@ -1,5 +1,3 @@
-[fec_encoder] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:01 (1)
-[fec_encoder] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
 [fec_encoder] summary: engine_0 (abc pdr) returned PASS
 [fec_encoder] summary: engine_0 did not produce any traces
 [fec_encoder] DONE (PASS, rc=0)

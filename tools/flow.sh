@@ -95,7 +95,7 @@ stage_formal() {
   while read -r task want; do
     [ -z "$task" ] && continue
     (cd formal && sby -f fec.sby $task > /dev/null 2>&1) && got=PASS || got=FAIL
-    grep -E 'summary|DONE' formal/fec_$task/logfile.txt | sed -E 's/^SBY +[0-9:]+ +//; s/ +$//' > $RES/formal/$task.log
+    grep -E 'summary|DONE' formal/fec_$task/logfile.txt | grep -v 'Elapsed' | sed -E 's/^SBY +[0-9:]+ +//; s/ +$//' > $RES/formal/$task.log
     record "formal $task" $want $got
   done <<'EOF'
 hamming PASS
