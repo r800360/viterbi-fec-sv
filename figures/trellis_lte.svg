@@ -1,192 +1,72 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
- "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
- -->
-<!-- Title: trellis Pages: 1 -->
-<svg width="886pt" height="521pt"
- viewBox="0.00 0.00 886.00 521.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 517)">
-<polygon fill="white" stroke="none" points="-4,4 -4,-517 882.25,-517 882.25,4 -4,4"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-497.6" font-family="DejaVu Sans" font-size="12.00">LTE RSC (13,15): 8 states &#160;&#160;(labels: input / output sym1 sym0)</text>
-<g id="clust1" class="cluster">
-</g>
-<g id="clust2" class="cluster">
-</g>
-<!-- 0_0 -->
-<g id="node1" class="node">
-<ellipse fill="none" stroke="#0969da" cx="189.38" cy="-434.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="189.38" y="-431.62" font-family="DejaVu Sans" font-size="10.00">000</text>
-</g>
-<!-- 1_0 -->
-<g id="node9" class="node">
-<ellipse fill="none" stroke="#0969da" cx="687.88" cy="-430.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="687.88" y="-427.62" font-family="DejaVu Sans" font-size="10.00">000</text>
-</g>
-<!-- 0_0&#45;&gt;1_0 -->
-<g id="edge1" class="edge">
-<path fill="none" stroke="#1a7f37" d="M207.75,-434.61C282.53,-434.01 576.94,-431.64 663.08,-430.94"/>
-<polygon fill="#1a7f37" stroke="#1a7f37" points="662.88,-432.69 667.87,-430.9 662.85,-429.19 662.88,-432.69"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-473.9" font-family="DejaVu Sans" font-size="8.00" fill="#1a7f37">0/00</text>
-</g>
-<!-- 1_4 -->
-<g id="node13" class="node">
-<ellipse fill="none" stroke="#0969da" cx="687.88" cy="-376.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="687.88" y="-373.62" font-family="DejaVu Sans" font-size="10.00">100</text>
-</g>
-<!-- 0_0&#45;&gt;1_4 -->
-<g id="edge2" class="edge">
-<path fill="none" stroke="#cf222e" d="M207.75,-432.72C282.61,-423.98 577.6,-389.52 663.37,-379.5"/>
-<polygon fill="#cf222e" stroke="#cf222e" points="663.37,-381.26 668.13,-378.94 662.96,-377.78 663.37,-381.26"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-422.93" font-family="DejaVu Sans" font-size="8.00" fill="#cf222e">1/11</text>
-</g>
-<!-- 0_1 -->
-<g id="node2" class="node">
-<ellipse fill="none" stroke="#0969da" cx="189.38" cy="-380.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="189.38" y="-377.62" font-family="DejaVu Sans" font-size="10.00">001</text>
-</g>
-<!-- 0_1&#45;&gt;1_0 -->
-<g id="edge4" class="edge">
-<path fill="none" stroke="#cf222e" d="M207.75,-382.5C282.61,-390.04 577.6,-419.74 663.37,-428.38"/>
-<polygon fill="#cf222e" stroke="#cf222e" points="662.98,-430.1 668.13,-428.86 663.33,-426.62 662.98,-430.1"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-407.9" font-family="DejaVu Sans" font-size="8.00" fill="#cf222e">1/11</text>
-</g>
-<!-- 0_1&#45;&gt;1_4 -->
-<g id="edge3" class="edge">
-<path fill="none" stroke="#1a7f37" d="M207.75,-380.61C282.53,-380.01 576.94,-377.64 663.08,-376.94"/>
-<polygon fill="#1a7f37" stroke="#1a7f37" points="662.88,-378.69 667.87,-376.9 662.85,-375.19 662.88,-378.69"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-380.9" font-family="DejaVu Sans" font-size="8.00" fill="#1a7f37">0/00</text>
-</g>
-<!-- 0_2 -->
-<g id="node3" class="node">
-<ellipse fill="none" stroke="#0969da" cx="189.38" cy="-326.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="189.38" y="-323.62" font-family="DejaVu Sans" font-size="10.00">010</text>
-</g>
-<!-- 1_1 -->
-<g id="node10" class="node">
-<ellipse fill="none" stroke="#0969da" cx="687.88" cy="-322.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="687.88" y="-319.62" font-family="DejaVu Sans" font-size="10.00">001</text>
-</g>
-<!-- 0_2&#45;&gt;1_1 -->
-<g id="edge6" class="edge">
-<path fill="none" stroke="#cf222e" d="M207.75,-326.61C282.53,-326.01 576.94,-323.64 663.08,-322.94"/>
-<polygon fill="#cf222e" stroke="#cf222e" points="662.88,-324.69 667.87,-322.9 662.85,-321.19 662.88,-324.69"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-341.9" font-family="DejaVu Sans" font-size="8.00" fill="#cf222e">1/01</text>
-</g>
-<!-- 1_5 -->
-<g id="node14" class="node">
-<ellipse fill="none" stroke="#0969da" cx="687.88" cy="-268.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="687.88" y="-265.62" font-family="DejaVu Sans" font-size="10.00">101</text>
-</g>
-<!-- 0_2&#45;&gt;1_5 -->
-<g id="edge5" class="edge">
-<path fill="none" stroke="#1a7f37" d="M207.75,-324.72C282.61,-315.98 577.6,-281.52 663.37,-271.5"/>
-<polygon fill="#1a7f37" stroke="#1a7f37" points="663.37,-273.26 668.13,-270.94 662.96,-269.78 663.37,-273.26"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-310.27" font-family="DejaVu Sans" font-size="8.00" fill="#1a7f37">0/10</text>
-</g>
-<!-- 0_3 -->
-<g id="node4" class="node">
-<ellipse fill="none" stroke="#0969da" cx="189.38" cy="-272.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="189.38" y="-269.62" font-family="DejaVu Sans" font-size="10.00">011</text>
-</g>
-<!-- 0_3&#45;&gt;1_1 -->
-<g id="edge7" class="edge">
-<path fill="none" stroke="#1a7f37" d="M207.75,-274.5C282.61,-282.04 577.6,-311.74 663.37,-320.38"/>
-<polygon fill="#1a7f37" stroke="#1a7f37" points="662.98,-322.1 668.13,-320.86 663.33,-318.62 662.98,-322.1"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-299.15" font-family="DejaVu Sans" font-size="8.00" fill="#1a7f37">0/10</text>
-</g>
-<!-- 0_3&#45;&gt;1_5 -->
-<g id="edge8" class="edge">
-<path fill="none" stroke="#cf222e" d="M207.75,-272.61C282.53,-272.01 576.94,-269.64 663.08,-268.94"/>
-<polygon fill="#cf222e" stroke="#cf222e" points="662.88,-270.69 667.87,-268.9 662.85,-267.19 662.88,-270.69"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-266.15" font-family="DejaVu Sans" font-size="8.00" fill="#cf222e">1/01</text>
-</g>
-<!-- 0_4 -->
-<g id="node5" class="node">
-<ellipse fill="none" stroke="#0969da" cx="189.38" cy="-218.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="189.38" y="-215.62" font-family="DejaVu Sans" font-size="10.00">100</text>
-</g>
-<!-- 1_2 -->
-<g id="node11" class="node">
-<ellipse fill="none" stroke="#0969da" cx="687.88" cy="-214.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="687.88" y="-211.62" font-family="DejaVu Sans" font-size="10.00">010</text>
-</g>
-<!-- 0_4&#45;&gt;1_2 -->
-<g id="edge9" class="edge">
-<path fill="none" stroke="#1a7f37" d="M207.75,-218.61C282.53,-218.01 576.94,-215.64 663.08,-214.94"/>
-<polygon fill="#1a7f37" stroke="#1a7f37" points="662.88,-216.69 667.87,-214.9 662.85,-213.19 662.88,-216.69"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-218.9" font-family="DejaVu Sans" font-size="8.00" fill="#1a7f37">0/10</text>
-</g>
-<!-- 1_6 -->
-<g id="node15" class="node">
-<ellipse fill="none" stroke="#0969da" cx="687.88" cy="-160.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="687.88" y="-157.62" font-family="DejaVu Sans" font-size="10.00">110</text>
-</g>
-<!-- 0_4&#45;&gt;1_6 -->
-<g id="edge10" class="edge">
-<path fill="none" stroke="#cf222e" d="M207.75,-216.72C282.61,-207.98 577.6,-173.52 663.37,-163.5"/>
-<polygon fill="#cf222e" stroke="#cf222e" points="663.37,-165.26 668.13,-162.94 662.96,-161.78 663.37,-165.26"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-191.9" font-family="DejaVu Sans" font-size="8.00" fill="#cf222e">1/01</text>
-</g>
-<!-- 0_5 -->
-<g id="node6" class="node">
-<ellipse fill="none" stroke="#0969da" cx="189.38" cy="-164.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="189.38" y="-161.62" font-family="DejaVu Sans" font-size="10.00">101</text>
-</g>
-<!-- 0_5&#45;&gt;1_2 -->
-<g id="edge12" class="edge">
-<path fill="none" stroke="#cf222e" d="M207.75,-166.5C282.61,-174.04 577.6,-203.74 663.37,-212.38"/>
-<polygon fill="#cf222e" stroke="#cf222e" points="662.98,-214.1 668.13,-212.86 663.33,-210.62 662.98,-214.1"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-167.15" font-family="DejaVu Sans" font-size="8.00" fill="#cf222e">1/01</text>
-</g>
-<!-- 0_5&#45;&gt;1_6 -->
-<g id="edge11" class="edge">
-<path fill="none" stroke="#1a7f37" d="M207.75,-164.61C282.53,-164.01 576.94,-161.64 663.08,-160.94"/>
-<polygon fill="#1a7f37" stroke="#1a7f37" points="662.88,-162.69 667.87,-160.9 662.85,-159.19 662.88,-162.69"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-134.15" font-family="DejaVu Sans" font-size="8.00" fill="#1a7f37">0/10</text>
-</g>
-<!-- 0_6 -->
-<g id="node7" class="node">
-<ellipse fill="none" stroke="#0969da" cx="189.38" cy="-110.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="189.38" y="-107.62" font-family="DejaVu Sans" font-size="10.00">110</text>
-</g>
-<!-- 1_3 -->
-<g id="node12" class="node">
-<ellipse fill="none" stroke="#0969da" cx="687.88" cy="-106.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="687.88" y="-103.62" font-family="DejaVu Sans" font-size="10.00">011</text>
-</g>
-<!-- 0_6&#45;&gt;1_3 -->
-<g id="edge14" class="edge">
-<path fill="none" stroke="#cf222e" d="M207.75,-110.61C282.53,-110.01 576.94,-107.64 663.08,-106.94"/>
-<polygon fill="#cf222e" stroke="#cf222e" points="662.88,-108.69 667.87,-106.9 662.85,-105.19 662.88,-108.69"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-110.9" font-family="DejaVu Sans" font-size="8.00" fill="#cf222e">1/11</text>
-</g>
-<!-- 1_7 -->
-<g id="node16" class="node">
-<ellipse fill="none" stroke="#0969da" cx="687.88" cy="-52.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="687.88" y="-49.62" font-family="DejaVu Sans" font-size="10.00">111</text>
-</g>
-<!-- 0_6&#45;&gt;1_7 -->
-<g id="edge13" class="edge">
-<path fill="none" stroke="#1a7f37" d="M207.75,-108.72C282.61,-99.98 577.6,-65.52 663.37,-55.5"/>
-<polygon fill="#1a7f37" stroke="#1a7f37" points="663.37,-57.26 668.13,-54.94 662.96,-53.78 663.37,-57.26"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-83.9" font-family="DejaVu Sans" font-size="8.00" fill="#1a7f37">0/00</text>
-</g>
-<!-- 0_7 -->
-<g id="node8" class="node">
-<ellipse fill="none" stroke="#0969da" cx="189.38" cy="-56.75" rx="18" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="189.38" y="-53.62" font-family="DejaVu Sans" font-size="10.00">111</text>
-</g>
-<!-- 0_7&#45;&gt;1_3 -->
-<g id="edge15" class="edge">
-<path fill="none" stroke="#1a7f37" d="M207.75,-58.5C282.61,-66.04 577.6,-95.74 663.37,-104.38"/>
-<polygon fill="#1a7f37" stroke="#1a7f37" points="662.98,-106.1 668.13,-104.86 663.33,-102.62 662.98,-106.1"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-35.15" font-family="DejaVu Sans" font-size="8.00" fill="#1a7f37">0/00</text>
-</g>
-<!-- 0_7&#45;&gt;1_7 -->
-<g id="edge16" class="edge">
-<path fill="none" stroke="#cf222e" d="M207.75,-56.61C282.53,-56.01 576.94,-53.64 663.08,-52.94"/>
-<polygon fill="#cf222e" stroke="#cf222e" points="662.88,-54.69 667.87,-52.9 662.85,-51.19 662.88,-54.69"/>
-<text xml:space="preserve" text-anchor="middle" x="439.12" y="-2.15" font-family="DejaVu Sans" font-size="8.00" fill="#cf222e">1/11</text>
-</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="454" viewBox="0 0 760 454" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">
+<rect width="760" height="454" fill="#ffffff"/>
+<defs><marker id="arrow0" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/></marker><marker id="arrow1" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#cf222e"/></marker></defs>
+<text x="380.0" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f2328">LTE RSC (13,15) code: 8 states</text>
+<text x="380.0" y="44" text-anchor="middle" fill="#57606a">branch label: input bit / output bits (sym1 sym0); <tspan fill="#1a7f37">input 0</tspan>, <tspan fill="#cf222e">input 1</tspan></text>
+<text x="170" y="62" text-anchor="middle" fill="#57606a">state at t</text>
+<text x="590" y="62" text-anchor="middle" fill="#57606a">state at t + 1</text>
+<line x1="187.0" y1="92.0" x2="572.0" y2="92.0" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#arrow0)"/>
+<line x1="185.6" y1="98.8" x2="573.5" y2="268.8" stroke="#cf222e" stroke-width="1.6" marker-end="url(#arrow1)"/>
+<line x1="186.2" y1="143.3" x2="572.9" y2="270.4" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#arrow0)"/>
+<line x1="186.9" y1="136.1" x2="572.1" y2="94.0" stroke="#cf222e" stroke-width="1.6" marker-end="url(#arrow1)"/>
+<line x1="186.2" y1="189.3" x2="572.9" y2="316.4" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#arrow0)"/>
+<line x1="186.9" y1="182.1" x2="572.1" y2="140.0" stroke="#cf222e" stroke-width="1.6" marker-end="url(#arrow1)"/>
+<line x1="186.6" y1="226.4" x2="572.4" y2="141.9" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#arrow0)"/>
+<line x1="186.6" y1="233.6" x2="572.4" y2="318.1" stroke="#cf222e" stroke-width="1.6" marker-end="url(#arrow1)"/>
+<line x1="186.6" y1="272.4" x2="572.4" y2="187.9" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#arrow0)"/>
+<line x1="186.6" y1="279.6" x2="572.4" y2="364.1" stroke="#cf222e" stroke-width="1.6" marker-end="url(#arrow1)"/>
+<line x1="186.9" y1="323.9" x2="572.1" y2="366.0" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#arrow0)"/>
+<line x1="186.2" y1="316.7" x2="572.9" y2="189.6" stroke="#cf222e" stroke-width="1.6" marker-end="url(#arrow1)"/>
+<line x1="186.9" y1="369.9" x2="572.1" y2="412.0" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#arrow0)"/>
+<line x1="186.2" y1="362.7" x2="572.9" y2="235.6" stroke="#cf222e" stroke-width="1.6" marker-end="url(#arrow1)"/>
+<line x1="185.6" y1="407.2" x2="573.5" y2="237.2" stroke="#1a7f37" stroke-width="1.6" marker-end="url(#arrow0)"/>
+<line x1="187.0" y1="414.0" x2="572.0" y2="414.0" stroke="#cf222e" stroke-width="1.6" marker-end="url(#arrow1)"/>
+<circle cx="170" cy="92" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="170" y="96" text-anchor="middle" fill="#1f2328">000</text>
+<circle cx="170" cy="138" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="170" y="142" text-anchor="middle" fill="#1f2328">001</text>
+<circle cx="170" cy="184" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="170" y="188" text-anchor="middle" fill="#1f2328">010</text>
+<circle cx="170" cy="230" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="170" y="234" text-anchor="middle" fill="#1f2328">011</text>
+<circle cx="170" cy="276" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="170" y="280" text-anchor="middle" fill="#1f2328">100</text>
+<circle cx="170" cy="322" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="170" y="326" text-anchor="middle" fill="#1f2328">101</text>
+<circle cx="170" cy="368" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="170" y="372" text-anchor="middle" fill="#1f2328">110</text>
+<circle cx="170" cy="414" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="170" y="418" text-anchor="middle" fill="#1f2328">111</text>
+<circle cx="590" cy="92" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="590" y="96" text-anchor="middle" fill="#1f2328">000</text>
+<circle cx="590" cy="138" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="590" y="142" text-anchor="middle" fill="#1f2328">001</text>
+<circle cx="590" cy="184" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="590" y="188" text-anchor="middle" fill="#1f2328">010</text>
+<circle cx="590" cy="230" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="590" y="234" text-anchor="middle" fill="#1f2328">011</text>
+<circle cx="590" cy="276" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="590" y="280" text-anchor="middle" fill="#1f2328">100</text>
+<circle cx="590" cy="322" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="590" y="326" text-anchor="middle" fill="#1f2328">101</text>
+<circle cx="590" cy="368" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="590" y="372" text-anchor="middle" fill="#1f2328">110</text>
+<circle cx="590" cy="414" r="17" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="590" y="418" text-anchor="middle" fill="#1f2328">111</text>
+<text x="212.0" y="96.0" text-anchor="middle" font-size="11" fill="#1a7f37" stroke="#ffffff" stroke-width="3" paint-order="stroke">0/00</text>
+<text x="296.0" y="151.2" text-anchor="middle" font-size="11" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">1/11</text>
+<text x="212.0" y="155.8" text-anchor="middle" font-size="11" fill="#1a7f37" stroke="#ffffff" stroke-width="3" paint-order="stroke">0/00</text>
+<text x="296.0" y="128.2" text-anchor="middle" font-size="11" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">1/11</text>
+<text x="212.0" y="201.8" text-anchor="middle" font-size="11" fill="#1a7f37" stroke="#ffffff" stroke-width="3" paint-order="stroke">0/10</text>
+<text x="296.0" y="174.2" text-anchor="middle" font-size="11" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">1/01</text>
+<text x="212.0" y="224.8" text-anchor="middle" font-size="11" fill="#1a7f37" stroke="#ffffff" stroke-width="3" paint-order="stroke">0/10</text>
+<text x="296.0" y="261.6" text-anchor="middle" font-size="11" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">1/01</text>
+<text x="212.0" y="270.8" text-anchor="middle" font-size="11" fill="#1a7f37" stroke="#ffffff" stroke-width="3" paint-order="stroke">0/10</text>
+<text x="296.0" y="307.6" text-anchor="middle" font-size="11" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">1/01</text>
+<text x="212.0" y="330.6" text-anchor="middle" font-size="11" fill="#1a7f37" stroke="#ffffff" stroke-width="3" paint-order="stroke">0/10</text>
+<text x="296.0" y="284.6" text-anchor="middle" font-size="11" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">1/01</text>
+<text x="212.0" y="376.6" text-anchor="middle" font-size="11" fill="#1a7f37" stroke="#ffffff" stroke-width="3" paint-order="stroke">0/00</text>
+<text x="296.0" y="330.6" text-anchor="middle" font-size="11" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">1/11</text>
+<text x="212.0" y="399.6" text-anchor="middle" font-size="11" fill="#1a7f37" stroke="#ffffff" stroke-width="3" paint-order="stroke">0/00</text>
+<text x="296.0" y="418.0" text-anchor="middle" font-size="11" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">1/11</text>
 </svg>

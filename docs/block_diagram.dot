@@ -1,26 +1,30 @@
-// The FEC link (rtl/fec_link_top.sv): data path left to right, host control below.
+// The FEC link (rtl/fec_link_top.sv): data path left to right, host control on a second row.
 digraph link {
-  rankdir=LR; bgcolor="white"; nodesep=0.3; ranksep=0.45; newrank=true;
-  node [shape=box, style="rounded,filled", fillcolor="#f6f8fa", color="#57606a", fontname="DejaVu Sans", fontsize=10];
-  edge [color="#57606a", fontname="DejaVu Sans", fontsize=9];
+  rankdir=LR; bgcolor="white"; nodesep=0.35; ranksep=0.35; newrank=true;
+  node [shape=box, style="rounded,filled", fillcolor="#f6f8fa", color="#57606a", fontname="DejaVu Sans", fontsize=13];
+  edge [color="#57606a", fontname="DejaVu Sans", fontsize=11];
 
   src  [label="PRBS-15\nsource", fillcolor="#ddf4ff"];
-  enc  [label="encoder (selected)\nK=3 programmable (7,5)\nLTE RSC K=4 (13,15)\nHamming (8,4)  |  uncoded"];
+  enc  [label="encoder (selected)\nK=3 programmable (7,5)\nLTE RSC K=4 (13,15)\nHamming (8,4) | uncoded"];
   ch   [label="channel emulator\nBSC (xorshift32)\nor fixed error patterns", fillcolor="#ffebe9"];
   dec  [label="decoder (same code)\nViterbi, register exchange\nor Hamming SEC-DED"];
   chk  [label="PRBS checker\nbits / errors", fillcolor="#ddf4ff"];
-  src -> enc [label="1 bit/clk"];
-  enc -> ch  [label="2-bit symbol"];
+  src -> enc [label="1 bit\nper clock"];
+  enc -> ch  [label="2-bit\nsymbol"];
   ch  -> dec;
-  dec -> chk [label="decoded bit"];
+  dec -> chk [label="decoded\nbit"];
 
   host [label="host PC", shape=plaintext, style="", fillcolor="none"];
   uart [label="UART 8N1\nrx / tx"];
   regs [label="control and status\nregisters"];
   host -> uart [dir=both];
   uart -> regs [dir=both];
-  regs -> enc [style=dashed, label="code, polynomials"];
-  regs -> ch  [style=dashed, label="mode, p, pattern"];
-  chk  -> regs [style=dashed, label="counters"];
+  regs -> enc [style=dashed, label="code,\npolynomials", constraint=false];
+  regs -> ch  [style=dashed, label="mode, p,\npattern"];
+  chk  -> regs [style=dashed, label="counters", constraint=false];
+
+  // columns: control sits under the data path instead of after it
   {rank=same; src; host;}
+  {rank=same; enc; uart;}
+  {rank=same; ch; regs;}
 }

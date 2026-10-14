@@ -1,132 +1,136 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
- -->
 <!-- Title: link Pages: 1 -->
-<svg width="1040pt" height="208pt"
- viewBox="0.00 0.00 1040.00 208.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 204.12)">
+<svg width="988pt" height="213pt"
+ viewBox="0.00 0.00 988.00 213.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 208.71)">
 
-<polygon fill="white" stroke="none" points="-4,4 -4,-204.12 1036,-204.12 1036,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-208.71 984,-208.71 984,4 -4,4"/>
 <!-- src -->
 <g id="node1" class="node">
 
-<path fill="#ddf4ff" stroke="#57606a" d="M45.25,-115C45.25,-115 12,-115 12,-115 6,-115 0,-109 0,-103 0,-103 0,-91 0,-91 0,-85 6,-79 12,-79 12,-79 45.25,-79 45.25,-79 51.25,-79 57.25,-85 57.25,-91 57.25,-91 57.25,-103 57.25,-103 57.25,-109 51.25,-115 45.25,-115"/>
-<text xml:space="preserve" text-anchor="middle" x="28.62" y="-100.25" font-family="DejaVu Sans" font-size="10.00">PRBS&#45;15</text>
-<text xml:space="preserve" text-anchor="middle" x="28.62" y="-87.5" font-family="DejaVu Sans" font-size="10.00">source</text>
+<path fill="#ddf4ff" stroke="#57606a" d="M58.75,-102.71C58.75,-102.71 12,-102.71 12,-102.71 6,-102.71 0,-96.71 0,-90.71 0,-90.71 0,-73.71 0,-73.71 0,-67.71 6,-61.71 12,-61.71 12,-61.71 58.75,-61.71 58.75,-61.71 64.75,-61.71 70.75,-67.71 70.75,-73.71 70.75,-73.71 70.75,-90.71 70.75,-90.71 70.75,-96.71 64.75,-102.71 58.75,-102.71"/>
+<text xml:space="preserve" text-anchor="middle" x="35.38" y="-86.36" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">PRBS&#45;15</text>
+<text xml:space="preserve" text-anchor="middle" x="35.38" y="-69.86" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">source</text>
 </g>
 <!-- enc -->
 <g id="node2" class="node">
 
-<path fill="#f6f8fa" stroke="#57606a" d="M259.75,-126.5C259.75,-126.5 138,-126.5 138,-126.5 132,-126.5 126,-120.5 126,-114.5 126,-114.5 126,-79.5 126,-79.5 126,-73.5 132,-67.5 138,-67.5 138,-67.5 259.75,-67.5 259.75,-67.5 265.75,-67.5 271.75,-73.5 271.75,-79.5 271.75,-79.5 271.75,-114.5 271.75,-114.5 271.75,-120.5 265.75,-126.5 259.75,-126.5"/>
-<text xml:space="preserve" text-anchor="middle" x="198.88" y="-113" font-family="DejaVu Sans" font-size="10.00">encoder (selected)</text>
-<text xml:space="preserve" text-anchor="middle" x="198.88" y="-100.25" font-family="DejaVu Sans" font-size="10.00">K=3 programmable (7,5)</text>
-<text xml:space="preserve" text-anchor="middle" x="198.88" y="-87.5" font-family="DejaVu Sans" font-size="10.00">LTE RSC K=4 (13,15)</text>
-<text xml:space="preserve" text-anchor="middle" x="198.88" y="-74.75" font-family="DejaVu Sans" font-size="10.00">Hamming (8,4) &#160;| &#160;uncoded</text>
+<path fill="#f6f8fa" stroke="#57606a" d="M320.5,-119.21C320.5,-119.21 158.25,-119.21 158.25,-119.21 152.25,-119.21 146.25,-113.21 146.25,-107.21 146.25,-107.21 146.25,-57.21 146.25,-57.21 146.25,-51.21 152.25,-45.21 158.25,-45.21 158.25,-45.21 320.5,-45.21 320.5,-45.21 326.5,-45.21 332.5,-51.21 332.5,-57.21 332.5,-57.21 332.5,-107.21 332.5,-107.21 332.5,-113.21 326.5,-119.21 320.5,-119.21"/>
+<text xml:space="preserve" text-anchor="middle" x="239.38" y="-102.86" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">encoder (selected)</text>
+<text xml:space="preserve" text-anchor="middle" x="239.38" y="-86.36" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">K=3 programmable (7,5)</text>
+<text xml:space="preserve" text-anchor="middle" x="239.38" y="-69.86" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">LTE RSC K=4 (13,15)</text>
+<text xml:space="preserve" text-anchor="middle" x="239.38" y="-53.36" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">Hamming (8,4) | uncoded</text>
 </g>
 <!-- src&#45;&gt;enc -->
 <g id="edge1" class="edge">
 
-<path fill="none" stroke="#57606a" d="M57.41,-97C73.16,-97 93.79,-97 114.36,-97"/>
-<polygon fill="#57606a" stroke="#57606a" points="114.25,-100.5 124.25,-97 114.25,-93.5 114.25,-100.5"/>
-<text xml:space="preserve" text-anchor="middle" x="91.62" y="-99.7" font-family="DejaVu Sans" font-size="9.00">1 bit/clk</text>
+<path fill="none" stroke="#57606a" d="M71.1,-82.21C88.94,-82.21 111.71,-82.21 134.67,-82.21"/>
+<polygon fill="#57606a" stroke="#57606a" points="134.42,-85.71 144.42,-82.21 134.42,-78.71 134.42,-85.71"/>
+<text xml:space="preserve" text-anchor="middle" x="108.5" y="-98.76" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">1 bit</text>
+<text xml:space="preserve" text-anchor="middle" x="108.5" y="-85.26" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">per clock</text>
 </g>
 <!-- ch -->
 <g id="node3" class="node">
 
-<path fill="#ffebe9" stroke="#57606a" d="M478.25,-154.12C478.25,-154.12 380.5,-154.12 380.5,-154.12 374.5,-154.12 368.5,-148.12 368.5,-142.12 368.5,-142.12 368.5,-119.88 368.5,-119.88 368.5,-113.88 374.5,-107.88 380.5,-107.88 380.5,-107.88 478.25,-107.88 478.25,-107.88 484.25,-107.88 490.25,-113.88 490.25,-119.88 490.25,-119.88 490.25,-142.12 490.25,-142.12 490.25,-148.12 484.25,-154.12 478.25,-154.12"/>
-<text xml:space="preserve" text-anchor="middle" x="429.38" y="-140.62" font-family="DejaVu Sans" font-size="10.00">channel emulator</text>
-<text xml:space="preserve" text-anchor="middle" x="429.38" y="-127.88" font-family="DejaVu Sans" font-size="10.00">BSC (xorshift32)</text>
-<text xml:space="preserve" text-anchor="middle" x="429.38" y="-115.12" font-family="DejaVu Sans" font-size="10.00">or fixed error patterns</text>
+<path fill="#ffebe9" stroke="#57606a" d="M575.5,-110.96C575.5,-110.96 436.5,-110.96 436.5,-110.96 430.5,-110.96 424.5,-104.96 424.5,-98.96 424.5,-98.96 424.5,-65.46 424.5,-65.46 424.5,-59.46 430.5,-53.46 436.5,-53.46 436.5,-53.46 575.5,-53.46 575.5,-53.46 581.5,-53.46 587.5,-59.46 587.5,-65.46 587.5,-65.46 587.5,-98.96 587.5,-98.96 587.5,-104.96 581.5,-110.96 575.5,-110.96"/>
+<text xml:space="preserve" text-anchor="middle" x="506" y="-94.61" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">channel emulator</text>
+<text xml:space="preserve" text-anchor="middle" x="506" y="-78.11" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">BSC (xorshift32)</text>
+<text xml:space="preserve" text-anchor="middle" x="506" y="-61.61" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">or fixed error patterns</text>
 </g>
 <!-- enc&#45;&gt;ch -->
 <g id="edge2" class="edge">
 
-<path fill="none" stroke="#57606a" d="M272.17,-107.76C299.17,-111.78 329.8,-116.33 356.74,-120.34"/>
-<polygon fill="#57606a" stroke="#57606a" points="356.14,-123.79 366.54,-121.8 357.17,-116.87 356.14,-123.79"/>
-<text xml:space="preserve" text-anchor="middle" x="320.12" y="-121.73" font-family="DejaVu Sans" font-size="9.00">2&#45;bit symbol</text>
+<path fill="none" stroke="#57606a" d="M332.96,-81.28C337.2,-81.25 341.39,-81.23 345.5,-81.21 374.83,-81.07 382.17,-81.05 411.5,-81.21 411.89,-81.21 412.28,-81.21 412.67,-81.21"/>
+<polygon fill="#57606a" stroke="#57606a" points="412.63,-84.71 422.65,-81.28 412.68,-77.71 412.63,-84.71"/>
+<text xml:space="preserve" text-anchor="middle" x="378.5" y="-97.76" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">2&#45;bit</text>
+<text xml:space="preserve" text-anchor="middle" x="378.5" y="-84.26" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">symbol</text>
 </g>
 <!-- dec -->
 <g id="node4" class="node">
 
-<path fill="#f6f8fa" stroke="#57606a" d="M653.25,-200.12C653.25,-200.12 535.25,-200.12 535.25,-200.12 529.25,-200.12 523.25,-194.12 523.25,-188.12 523.25,-188.12 523.25,-165.88 523.25,-165.88 523.25,-159.88 529.25,-153.88 535.25,-153.88 535.25,-153.88 653.25,-153.88 653.25,-153.88 659.25,-153.88 665.25,-159.88 665.25,-165.88 665.25,-165.88 665.25,-188.12 665.25,-188.12 665.25,-194.12 659.25,-200.12 653.25,-200.12"/>
-<text xml:space="preserve" text-anchor="middle" x="594.25" y="-186.62" font-family="DejaVu Sans" font-size="10.00">decoder (same code)</text>
-<text xml:space="preserve" text-anchor="middle" x="594.25" y="-173.88" font-family="DejaVu Sans" font-size="10.00">Viterbi, register exchange</text>
-<text xml:space="preserve" text-anchor="middle" x="594.25" y="-161.12" font-family="DejaVu Sans" font-size="10.00">or Hamming SEC&#45;DED</text>
+<path fill="#f6f8fa" stroke="#57606a" d="M789.5,-110.96C789.5,-110.96 626.5,-110.96 626.5,-110.96 620.5,-110.96 614.5,-104.96 614.5,-98.96 614.5,-98.96 614.5,-65.46 614.5,-65.46 614.5,-59.46 620.5,-53.46 626.5,-53.46 626.5,-53.46 789.5,-53.46 789.5,-53.46 795.5,-53.46 801.5,-59.46 801.5,-65.46 801.5,-65.46 801.5,-98.96 801.5,-98.96 801.5,-104.96 795.5,-110.96 789.5,-110.96"/>
+<text xml:space="preserve" text-anchor="middle" x="708" y="-94.61" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">decoder (same code)</text>
+<text xml:space="preserve" text-anchor="middle" x="708" y="-78.11" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">Viterbi, register exchange</text>
+<text xml:space="preserve" text-anchor="middle" x="708" y="-61.61" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">or Hamming SEC&#45;DED</text>
 </g>
 <!-- ch&#45;&gt;dec -->
 <g id="edge3" class="edge">
 
-<path fill="none" stroke="#57606a" d="M490.56,-148C497.54,-149.97 504.75,-152 511.95,-154.04"/>
-<polygon fill="#57606a" stroke="#57606a" points="510.82,-157.36 521.39,-156.71 512.72,-150.62 510.82,-157.36"/>
+<path fill="none" stroke="#57606a" d="M587.77,-82.21C592.79,-82.21 597.87,-82.21 602.96,-82.21"/>
+<polygon fill="#57606a" stroke="#57606a" points="602.6,-85.71 612.6,-82.21 602.6,-78.71 602.6,-85.71"/>
 </g>
 <!-- chk -->
 <g id="node5" class="node">
 
-<path fill="#ddf4ff" stroke="#57606a" d="M844.5,-192C844.5,-192 786.5,-192 786.5,-192 780.5,-192 774.5,-186 774.5,-180 774.5,-180 774.5,-168 774.5,-168 774.5,-162 780.5,-156 786.5,-156 786.5,-156 844.5,-156 844.5,-156 850.5,-156 856.5,-162 856.5,-168 856.5,-168 856.5,-180 856.5,-180 856.5,-186 850.5,-192 844.5,-192"/>
-<text xml:space="preserve" text-anchor="middle" x="815.5" y="-177.25" font-family="DejaVu Sans" font-size="10.00">PRBS checker</text>
-<text xml:space="preserve" text-anchor="middle" x="815.5" y="-164.5" font-family="DejaVu Sans" font-size="10.00">bits / errors</text>
+<path fill="#ddf4ff" stroke="#57606a" d="M968,-102.71C968,-102.71 886,-102.71 886,-102.71 880,-102.71 874,-96.71 874,-90.71 874,-90.71 874,-73.71 874,-73.71 874,-67.71 880,-61.71 886,-61.71 886,-61.71 968,-61.71 968,-61.71 974,-61.71 980,-67.71 980,-73.71 980,-73.71 980,-90.71 980,-90.71 980,-96.71 974,-102.71 968,-102.71"/>
+<text xml:space="preserve" text-anchor="middle" x="927" y="-86.36" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">PRBS checker</text>
+<text xml:space="preserve" text-anchor="middle" x="927" y="-69.86" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">bits / errors</text>
 </g>
 <!-- dec&#45;&gt;chk -->
 <g id="edge4" class="edge">
 
-<path fill="none" stroke="#57606a" d="M665.53,-176.04C697.26,-175.6 734.07,-175.1 763.16,-174.7"/>
-<polygon fill="#57606a" stroke="#57606a" points="762.84,-178.21 772.79,-174.57 762.74,-171.21 762.84,-178.21"/>
-<text xml:space="preserve" text-anchor="middle" x="719.88" y="-178.47" font-family="DejaVu Sans" font-size="9.00">decoded bit</text>
+<path fill="none" stroke="#57606a" d="M801.97,-82.21C822.26,-82.21 843.29,-82.21 862.15,-82.21"/>
+<polygon fill="#57606a" stroke="#57606a" points="862.06,-85.71 872.06,-82.21 862.06,-78.71 862.06,-85.71"/>
+<text xml:space="preserve" text-anchor="middle" x="837.75" y="-98.76" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">decoded</text>
+<text xml:space="preserve" text-anchor="middle" x="837.75" y="-85.26" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">bit</text>
 </g>
 <!-- regs -->
 <g id="node8" class="node">
 
-<path fill="#f6f8fa" stroke="#57606a" d="M1020,-115C1020,-115 940.25,-115 940.25,-115 934.25,-115 928.25,-109 928.25,-103 928.25,-103 928.25,-91 928.25,-91 928.25,-85 934.25,-79 940.25,-79 940.25,-79 1020,-79 1020,-79 1026,-79 1032,-85 1032,-91 1032,-91 1032,-103 1032,-103 1032,-109 1026,-115 1020,-115"/>
-<text xml:space="preserve" text-anchor="middle" x="980.12" y="-100.25" font-family="DejaVu Sans" font-size="10.00">control and status</text>
-<text xml:space="preserve" text-anchor="middle" x="980.12" y="-87.5" font-family="DejaVu Sans" font-size="10.00">registers</text>
+<path fill="#f6f8fa" stroke="#57606a" d="M562.38,-203.71C562.38,-203.71 449.62,-203.71 449.62,-203.71 443.62,-203.71 437.62,-197.71 437.62,-191.71 437.62,-191.71 437.62,-174.71 437.62,-174.71 437.62,-168.71 443.62,-162.71 449.62,-162.71 449.62,-162.71 562.38,-162.71 562.38,-162.71 568.38,-162.71 574.38,-168.71 574.38,-174.71 574.38,-174.71 574.38,-191.71 574.38,-191.71 574.38,-197.71 568.38,-203.71 562.38,-203.71"/>
+<text xml:space="preserve" text-anchor="middle" x="506" y="-187.36" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">control and status</text>
+<text xml:space="preserve" text-anchor="middle" x="506" y="-170.86" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">registers</text>
 </g>
 <!-- chk&#45;&gt;regs -->
 <g id="edge9" class="edge">
 
-<path fill="none" stroke="#57606a" stroke-dasharray="5,2" d="M856.75,-160.18C874.11,-153.78 894.47,-145.67 912.25,-137 921.8,-132.34 931.79,-126.77 941.05,-121.29"/>
-<polygon fill="#57606a" stroke="#57606a" points="942.71,-124.38 949.46,-116.21 939.09,-118.39 942.71,-124.38"/>
-<text xml:space="preserve" text-anchor="middle" x="892.38" y="-156.51" font-family="DejaVu Sans" font-size="9.00">counters</text>
+<path fill="none" stroke="#57606a" stroke-dasharray="5,2" d="M892.13,-61.22C830.37,-25.92 698.13,35.56 614.5,-27.71 579.32,-54.32 612.51,-86.88 587.5,-123.21 578.84,-135.79 566.67,-146.79 554.41,-155.82"/>
+<polygon fill="#57606a" stroke="#57606a" points="552.52,-152.87 546.32,-161.47 556.52,-158.62 552.52,-152.87"/>
+<text xml:space="preserve" text-anchor="middle" x="708" y="-30.76" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">counters</text>
 </g>
 <!-- host -->
 <g id="node6" class="node">
 
-<text xml:space="preserve" text-anchor="middle" x="28.62" y="-14.88" font-family="DejaVu Sans" font-size="10.00">host PC</text>
+<text xml:space="preserve" text-anchor="middle" x="35.38" y="-180.11" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">host PC</text>
 </g>
 <!-- uart -->
 <g id="node7" class="node">
 
-<path fill="#f6f8fa" stroke="#57606a" d="M340.5,-36C340.5,-36 299.75,-36 299.75,-36 293.75,-36 287.75,-30 287.75,-24 287.75,-24 287.75,-12 287.75,-12 287.75,-6 293.75,0 299.75,0 299.75,0 340.5,0 340.5,0 346.5,0 352.5,-6 352.5,-12 352.5,-12 352.5,-24 352.5,-24 352.5,-30 346.5,-36 340.5,-36"/>
-<text xml:space="preserve" text-anchor="middle" x="320.12" y="-21.25" font-family="DejaVu Sans" font-size="10.00">UART 8N1</text>
-<text xml:space="preserve" text-anchor="middle" x="320.12" y="-8.5" font-family="DejaVu Sans" font-size="10.00">rx / tx</text>
+<path fill="#f6f8fa" stroke="#57606a" d="M268.38,-204.71C268.38,-204.71 210.38,-204.71 210.38,-204.71 204.38,-204.71 198.38,-198.71 198.38,-192.71 198.38,-192.71 198.38,-175.71 198.38,-175.71 198.38,-169.71 204.38,-163.71 210.38,-163.71 210.38,-163.71 268.38,-163.71 268.38,-163.71 274.38,-163.71 280.38,-169.71 280.38,-175.71 280.38,-175.71 280.38,-192.71 280.38,-192.71 280.38,-198.71 274.38,-204.71 268.38,-204.71"/>
+<text xml:space="preserve" text-anchor="middle" x="239.38" y="-188.36" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">UART 8N1</text>
+<text xml:space="preserve" text-anchor="middle" x="239.38" y="-171.86" font-family="DejaVu Sans, Arial, sans-serif" font-size="13.00">rx / tx</text>
 </g>
 <!-- host&#45;&gt;uart -->
 <g id="edge5" class="edge">
 
-<path fill="none" stroke="#57606a" d="M67.02,-18C120.71,-18 219.4,-18 276.06,-18"/>
-<polygon fill="#57606a" stroke="#57606a" points="67.08,-14.5 57.08,-18 67.08,-21.5 67.08,-14.5"/>
-<polygon fill="#57606a" stroke="#57606a" points="275.97,-21.5 285.97,-18 275.97,-14.5 275.97,-21.5"/>
+<path fill="none" stroke="#57606a" d="M79.25,-184.21C110.63,-184.21 153.36,-184.21 186.64,-184.21"/>
+<polygon fill="#57606a" stroke="#57606a" points="79.45,-180.71 69.45,-184.21 79.45,-187.71 79.45,-180.71"/>
+<polygon fill="#57606a" stroke="#57606a" points="186.47,-187.71 196.47,-184.21 186.47,-180.71 186.47,-187.71"/>
 </g>
 <!-- uart&#45;&gt;regs -->
 <g id="edge6" class="edge">
 
-<path fill="none" stroke="#57606a" d="M364.41,-18C401.93,-18 457.67,-18 506.25,-18 506.25,-18 506.25,-18 816.5,-18 866.56,-18 917.37,-48.67 948.56,-71.79"/>
-<polygon fill="#57606a" stroke="#57606a" points="364.41,-14.5 354.41,-18 364.41,-21.5 364.41,-14.5"/>
-<polygon fill="#57606a" stroke="#57606a" points="946.32,-74.47 956.39,-77.76 950.56,-68.91 946.32,-74.47"/>
+<path fill="none" stroke="#57606a" d="M292.34,-184.01C330.38,-183.87 382.69,-183.67 425.91,-183.51"/>
+<polygon fill="#57606a" stroke="#57606a" points="292.35,-180.51 282.37,-184.05 292.38,-187.51 292.35,-180.51"/>
+<polygon fill="#57606a" stroke="#57606a" points="425.76,-187.01 435.74,-183.47 425.73,-180.01 425.76,-187.01"/>
 </g>
 <!-- regs&#45;&gt;enc -->
 <g id="edge7" class="edge">
 
-<path fill="none" stroke="#57606a" stroke-dasharray="5,2" d="M927.75,-85.97C895.88,-80.07 854,-74 816.5,-74 428.38,-74 428.38,-74 428.38,-74 380.25,-74 326.7,-79.11 283.55,-84.52"/>
-<polygon fill="#57606a" stroke="#57606a" points="283.21,-81.03 273.74,-85.78 284.1,-87.98 283.21,-81.03"/>
-<text xml:space="preserve" text-anchor="middle" x="594.25" y="-76.7" font-family="DejaVu Sans" font-size="9.00">code, polynomials</text>
+<path fill="none" stroke="#57606a" stroke-dasharray="5,2" d="M450.3,-162.33C419.5,-150.57 380.01,-135.5 343.61,-121.61"/>
+<polygon fill="#57606a" stroke="#57606a" points="344.93,-118.37 334.34,-118.07 342.44,-124.91 344.93,-118.37"/>
+<text xml:space="preserve" text-anchor="middle" x="378.5" y="-161.27" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">code,</text>
+<text xml:space="preserve" text-anchor="middle" x="378.5" y="-147.77" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">polynomials</text>
 </g>
 <!-- regs&#45;&gt;ch -->
 <g id="edge8" class="edge">
 
-<path fill="none" stroke="#57606a" stroke-dasharray="5,2" d="M928.03,-100.17C829.78,-106.25 614.33,-119.6 501.88,-126.57"/>
-<polygon fill="#57606a" stroke="#57606a" points="501.95,-123.06 492.18,-127.17 502.38,-130.05 501.95,-123.06"/>
-<text xml:space="preserve" text-anchor="middle" x="719.88" y="-118.07" font-family="DejaVu Sans" font-size="9.00">mode, p, pattern</text>
+<path fill="none" stroke="#57606a" stroke-dasharray="5,2" d="M506,-162.4C506,-150.89 506,-136.21 506,-122.55"/>
+<polygon fill="#57606a" stroke="#57606a" points="509.5,-122.93 506,-112.93 502.5,-122.93 509.5,-122.93"/>
+<text xml:space="preserve" text-anchor="middle" x="489.5" y="-139.88" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">mode, p,</text>
+<text xml:space="preserve" text-anchor="middle" x="489.5" y="-126.38" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.00">pattern</text>
 </g>
 </g>
 </svg>
