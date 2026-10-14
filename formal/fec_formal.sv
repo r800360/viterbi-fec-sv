@@ -100,7 +100,7 @@ module uart_props (input logic clk, rst_n, rx);
   wire       valid, ferr;
   wire [7:0] data;
   logic      past = 1'b0;
-  uart_rx #(.CLKS_PER_BIT(4)) u_rx (.clk, .rst_n, .rx, .valid, .data, .frame_err(ferr));   // 4 clocks per bit keeps the cover trace short
+  uart_receiver #(.CLKS_PER_BIT(4)) u_rx (.clk, .rst_n, .rx, .valid, .data, .frame_err(ferr));   // 4 clocks per bit keeps the cover trace short
   initial assume (!rst_n);
   always_ff @(posedge clk) past <= 1'b1;
   always_ff @(posedge clk) if (past) begin

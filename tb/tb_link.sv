@@ -20,7 +20,7 @@ module tb_link;
   // host-side receiver (the RTL receiver, tested on its own in tb_blocks)
   wire       h_valid, h_ferr;
   wire [7:0] h_data;
-  uart_rx #(.CLKS_PER_BIT(CPB)) host_rx (.clk(clk), .rst_n(rst_n), .rx(dut_tx), .valid(h_valid), .data(h_data),
+  uart_receiver #(.CLKS_PER_BIT(CPB)) host_rx (.clk(clk), .rst_n(rst_n), .rx(dut_tx), .valid(h_valid), .data(h_data),
                                          .frame_err(h_ferr));
   byte unsigned rxq [$];
   always @(posedge clk) if (h_valid) rxq.push_back(h_data);

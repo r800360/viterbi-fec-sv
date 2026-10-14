@@ -23,7 +23,7 @@ endmodule
 // Receiver: Moore FSM, binary-encoded. rx passes a 2-flip-flop synchronizer; the start bit is confirmed half a bit
 // after its falling edge, and every following bit (data and stop) is sampled one full bit period later, mid-bit.
 // A low stop bit is a framing error: no valid pulse, and the receiver waits for an idle line.
-module uart_rx #(parameter int CLKS_PER_BIT = 434) (
+module uart_receiver #(parameter int CLKS_PER_BIT = 434) (
   input  logic       clk,
   input  logic       rst_n,
   input  logic       rx,
@@ -95,7 +95,7 @@ module uart_rx #(parameter int CLKS_PER_BIT = 434) (
 endmodule
 
 // Transmitter: start bit, 8 data bits LSB first, stop bit. Accepts a byte when ready and start are both high.
-module uart_tx #(parameter int CLKS_PER_BIT = 434) (
+module uart_transmitter #(parameter int CLKS_PER_BIT = 434) (
   input  logic       clk,
   input  logic       rst_n,
   input  logic       start,

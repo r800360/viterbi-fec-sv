@@ -14,7 +14,7 @@ the counters over a UART. Every block is a separate module with its own tests.
 | `hamming84_*` | [rtl/hamming84.sv](../rtl/hamming84.sv) | (8,4) extended Hamming SEC-DED codec and its serial link adapters |
 | `prbs_gen`, `prbs_check` | [rtl/prbs.sv](../rtl/prbs.sv) | ITU-T O.150 PRBS generator and a checker that counts each error once |
 | `bsc_channel` | [rtl/bsc_channel.sv](../rtl/bsc_channel.sv) | binary symmetric channel (xorshift32) or fixed error patterns |
-| `uart_rx`, `uart_tx`, `baud_tick` | [rtl/uart.sv](../rtl/uart.sv) | 8N1 UART; the receiver synchronizes `rx` and samples mid-bit |
+| `uart_receiver`, `uart_transmitter`, `baud_tick` | [rtl/uart.sv](../rtl/uart.sv) | 8N1 UART; the receiver synchronizes `rx` and samples mid-bit |
 | `fec_link_top` | [rtl/fec_link_top.sv](../rtl/fec_link_top.sv) | the link, the host protocol and the register file |
 
 ## Codes

@@ -42,9 +42,9 @@ module fec_link_top #(
   // ---------------------------------------------------------------- host link
   logic       rx_valid, rx_ferr, tx_ready, tx_start;
   logic [7:0] rx_data, tx_data;
-  uart_rx #(.CLKS_PER_BIT(CLKS_PER_BIT)) u_rx (.clk, .rst_n, .rx(uart_rx_i), .valid(rx_valid), .data(rx_data),
+  uart_receiver #(.CLKS_PER_BIT(CLKS_PER_BIT)) u_rx (.clk, .rst_n, .rx(uart_rx_i), .valid(rx_valid), .data(rx_data),
                                                .frame_err(rx_ferr));
-  uart_tx #(.CLKS_PER_BIT(CLKS_PER_BIT)) u_tx (.clk, .rst_n, .start(tx_start), .data(tx_data), .ready(tx_ready),
+  uart_transmitter #(.CLKS_PER_BIT(CLKS_PER_BIT)) u_tx (.clk, .rst_n, .start(tx_start), .data(tx_data), .ready(tx_ready),
                                                .tx(uart_tx_o));
 
   typedef enum logic [1:0] {H_CMD, H_WDATA, H_RDATA} hstate_t;

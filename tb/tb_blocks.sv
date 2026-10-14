@@ -135,8 +135,8 @@ module tb_blocks;
   wire  [7:0]  r_data;
   logic        force_line = 0, line_value = 1;
   wire         line = force_line ? line_value : t_line;
-  uart_tx #(.CLKS_PER_BIT(CPB)) u_utx (.clk, .rst_n, .start(t_start), .data(t_data), .ready(t_ready), .tx(t_line));
-  uart_rx #(.CLKS_PER_BIT(CPB)) u_urx (.clk, .rst_n, .rx(line), .valid(r_valid), .data(r_data), .frame_err(r_ferr));
+  uart_transmitter #(.CLKS_PER_BIT(CPB)) u_utx (.clk, .rst_n, .start(t_start), .data(t_data), .ready(t_ready), .tx(t_line));
+  uart_receiver #(.CLKS_PER_BIT(CPB)) u_urx (.clk, .rst_n, .rx(line), .valid(r_valid), .data(r_data), .frame_err(r_ferr));
   logic [7:0] rx_q [$];
   int ferrs = 0;
   always @(posedge clk) begin
