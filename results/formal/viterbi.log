@@ -1,0 +1,5 @@
+[fec_viterbi] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:17 (17)
+[fec_viterbi] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:16 (16)
+[fec_viterbi] summary: engine_0 (abc bmc3) returned PASS
+[fec_viterbi] summary: engine_0 did not produce any traces
+[fec_viterbi] DONE (PASS, rc=0)

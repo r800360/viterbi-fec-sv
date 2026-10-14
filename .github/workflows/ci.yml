@@ -1,0 +1,73 @@
+# Every push: lint, simulate (Icarus and Verilator), prove, recompute the BER curves and the iCE40 implementation
+# results, regenerate every figure, and fail if any committed result or figure is not reproduced exactly.
+# Results and figures are uploaded as an artifact; a v* tag also publishes them as a release.
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    container: ubuntu:26.04@sha256:f144425ff09be612d6d9ad965196e9cdc23dae1f42110a8a11a3e9a8198759f7
+    timeout-minutes: 90
+    steps:
+      - name: Install git
+        run: apt-get update && apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+      - name: Install the pinned toolchain
+        run: bash scripts/install-tools.sh
+      - name: Lint
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          make lint
+      - name: Simulate (Icarus and Verilator, bit-exact against the model)
+        run: make sim
+      - name: Formal (SymbiYosys)
+        run: make formal
+      - name: Bit error rate curves
+        run: make ber
+      - name: iCE40 implementation sweep
+        run: make ppa
+      - name: Figures
+        run: make figures
+      - name: Results and figures are reproduced
+        run: make check
+      - name: Summary
+        if: always()
+        run: cat results/SUMMARY.txt >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload results and figures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: |
+            results/
+            figures/
+          if-no-files-found: ignore
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: verify
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: results
+          path: results
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tar -czf "viterbi-fec-sv-${GITHUB_REF_NAME}-results.tar.gz" results
+          gh release create "$GITHUB_REF_NAME" *.tar.gz --repo "$GITHUB_REPOSITORY" --title "$GITHUB_REF_NAME" \
+            --notes "Every check rerun on the pinned toolchain; results and figures attached."

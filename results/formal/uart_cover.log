@@ -1,0 +1,6 @@
+[fec_uart_cover] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:06 (6)
+[fec_uart_cover] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:06 (6)
+[fec_uart_cover] summary: engine_0 (smtbmc z3) returned pass
+[fec_uart_cover] summary: cover trace: fec_uart_cover/engine_0/trace0.vcd
+[fec_uart_cover] summary:   reached cover statement uart_props._witness_.check_cover_fec_formal_sv_111_430 at fec_formal.sv:111.25-111.55 in step 41
+[fec_uart_cover] DONE (PASS, rc=0)

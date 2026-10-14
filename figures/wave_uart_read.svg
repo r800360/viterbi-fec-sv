@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="258" viewBox="0 0 1120 258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12">
+<rect width="1120" height="258" fill="#ffffff"/>
+<text x="10" y="20" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1f2328">Host reads the ID register over the UART: command 0x7F, reply 46 45 43 31 (&quot;FEC1&quot;, LSB first)</text>
+<text x="10" y="51.0" fill="#1f2328">host -&gt; link</text>
+<polyline fill="none" stroke="#1a7f37" stroke-width="1.6" points="150.00,39.0 160.42,39.0 160.42,55.0 177.98,55.0 177.98,39.0 300.86,39.0 300.86,55.0 318.41,55.0 318.41,39.0 1038.14,39.0 1038.14,55.0 1090.80,55.0 1090.80,39.0 1108.35,39.0 1108.35,55.0 1110.00,55.0"/>
+<text x="10" y="77.0" fill="#1f2328">byte received</text>
+<rect x="150.00" y="65" width="0.55" height="16" fill="#ffd7d5" stroke="#cf222e" stroke-width="0.8"/>
+<polyline fill="none" stroke="#1a7f37" stroke-width="1.6" points="150.55,81.0 329.38,81.0 329.38,65.0 330.48,65.0 330.48,81.0 1110.00,81.0"/>
+<text x="10" y="103.0" fill="#1f2328">received</text>
+<polygon points="150.00,99.0 150.27,91 150.27,91 150.55,99.0 150.27,107 150.27,107" fill="#ffd7d5" stroke="#cf222e" stroke-width="1"/>
+<polygon points="150.55,99.0 154.55,91 325.38,91 329.38,99.0 325.38,107 154.55,107" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="239.97" y="103.0" text-anchor="middle" fill="#1f2328">00</text>
+<polygon points="329.38,99.0 333.38,91 1106.00,91 1110.00,99.0 1106.00,107 333.38,107" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="719.69" y="103.0" text-anchor="middle" fill="#1f2328">7F</text>
+<text x="10" y="129.0" fill="#1f2328">host FSM</text>
+<polygon points="150.00,125.0 150.27,117 150.27,117 150.55,125.0 150.27,133 150.27,133" fill="#ffd7d5" stroke="#cf222e" stroke-width="1"/>
+<polygon points="150.55,125.0 154.55,117 326.48,117 330.48,125.0 326.48,133 154.55,133" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="240.51" y="129.0" text-anchor="middle" fill="#1f2328">0</text>
+<polygon points="330.48,125.0 334.48,117 860.79,117 864.79,125.0 860.79,133 334.48,133" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="597.63" y="129.0" text-anchor="middle" fill="#1f2328">2</text>
+<polygon points="864.79,125.0 868.79,117 1106.00,117 1110.00,125.0 1106.00,133 868.79,133" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="987.39" y="129.0" text-anchor="middle" fill="#1f2328">0</text>
+<text x="10" y="155.0" fill="#1f2328">send byte</text>
+<rect x="150.00" y="143" width="0.55" height="16" fill="#ffd7d5" stroke="#cf222e" stroke-width="0.8"/>
+<polyline fill="none" stroke="#1a7f37" stroke-width="1.6" points="150.55,159.0 331.58,159.0 331.58,143.0 332.67,143.0 332.67,159.0 509.31,159.0 509.31,143.0 510.41,143.0 510.41,159.0 687.05,159.0 687.05,143.0 688.15,143.0 688.15,159.0 864.79,159.0 864.79,143.0 865.89,143.0 865.89,159.0 1110.00,159.0"/>
+<text x="10" y="181.0" fill="#1f2328">sent</text>
+<polygon points="150.00,177.0 150.27,169 150.27,169 150.55,177.0 150.27,185 150.27,185" fill="#ffd7d5" stroke="#cf222e" stroke-width="1"/>
+<polygon points="150.55,177.0 154.55,169 327.58,169 331.58,177.0 327.58,185 154.55,185" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="241.06" y="181.0" text-anchor="middle" fill="#1f2328">00</text>
+<polygon points="331.58,177.0 335.58,169 505.31,169 509.31,177.0 505.31,185 335.58,185" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="420.45" y="181.0" text-anchor="middle" fill="#1f2328">46</text>
+<polygon points="509.31,177.0 513.31,169 683.05,169 687.05,177.0 683.05,185 513.31,185" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="598.18" y="181.0" text-anchor="middle" fill="#1f2328">45</text>
+<polygon points="687.05,177.0 691.05,169 860.79,169 864.79,177.0 860.79,185 691.05,185" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="775.92" y="181.0" text-anchor="middle" fill="#1f2328">43</text>
+<polygon points="864.79,177.0 868.79,169 1106.00,169 1110.00,177.0 1106.00,185 868.79,185" fill="#ddf4ff" stroke="#0550ae" stroke-width="1"/>
+<text x="987.39" y="181.0" text-anchor="middle" fill="#1f2328">31</text>
+<text x="10" y="207.0" fill="#1f2328">link -&gt; host</text>
+<rect x="150.00" y="195" width="0.55" height="16" fill="#ffd7d5" stroke="#cf222e" stroke-width="0.8"/>
+<polyline fill="none" stroke="#1a7f37" stroke-width="1.6" points="150.55,195.0 333.77,195.0 333.77,211.0 368.88,211.0 368.88,195.0 403.99,195.0 403.99,211.0 456.65,211.0 456.65,195.0 474.21,195.0 474.21,211.0 491.76,211.0 491.76,195.0 511.51,195.0 511.51,211.0 529.06,211.0 529.06,195.0 546.62,195.0 546.62,211.0 564.17,211.0 564.17,195.0 581.73,195.0 581.73,211.0 634.39,211.0 634.39,195.0 651.94,195.0 651.94,211.0 669.50,211.0 669.50,195.0 689.25,195.0 689.25,211.0 706.80,211.0 706.80,195.0 741.91,195.0 741.91,211.0 812.13,211.0 812.13,195.0 829.68,195.0 829.68,211.0 847.23,211.0 847.23,195.0 866.98,195.0 866.98,211.0 884.54,211.0 884.54,195.0 902.09,195.0 902.09,211.0 954.75,211.0 954.75,195.0 989.86,195.0 989.86,211.0 1024.97,211.0 1024.97,195.0 1110.00,195.0"/>
+<line x1="150" y1="222" x2="1110" y2="222" stroke="#57606a"/>
+<line x1="150.00" y1="222" x2="150.00" y2="226" stroke="#57606a"/>
+<text x="150.00" y="238" text-anchor="middle" fill="#57606a" font-size="11">0</text>
+<line x1="259.71" y1="222" x2="259.71" y2="226" stroke="#57606a"/>
+<text x="259.71" y="238" text-anchor="middle" fill="#57606a" font-size="11">2</text>
+<line x1="369.43" y1="222" x2="369.43" y2="226" stroke="#57606a"/>
+<text x="369.43" y="238" text-anchor="middle" fill="#57606a" font-size="11">4</text>
+<line x1="479.14" y1="222" x2="479.14" y2="226" stroke="#57606a"/>
+<text x="479.14" y="238" text-anchor="middle" fill="#57606a" font-size="11">6</text>
+<line x1="588.86" y1="222" x2="588.86" y2="226" stroke="#57606a"/>
+<text x="588.86" y="238" text-anchor="middle" fill="#57606a" font-size="11">8</text>
+<line x1="698.57" y1="222" x2="698.57" y2="226" stroke="#57606a"/>
+<text x="698.57" y="238" text-anchor="middle" fill="#57606a" font-size="11">10</text>
+<line x1="808.29" y1="222" x2="808.29" y2="226" stroke="#57606a"/>
+<text x="808.29" y="238" text-anchor="middle" fill="#57606a" font-size="11">12</text>
+<line x1="918.00" y1="222" x2="918.00" y2="226" stroke="#57606a"/>
+<text x="918.00" y="238" text-anchor="middle" fill="#57606a" font-size="11">14</text>
+<line x1="1027.71" y1="222" x2="1027.71" y2="226" stroke="#57606a"/>
+<text x="1027.71" y="238" text-anchor="middle" fill="#57606a" font-size="11">16</text>
+<text x="1110" y="250" text-anchor="end" fill="#57606a" font-size="11">time (us)</text>
+</svg>

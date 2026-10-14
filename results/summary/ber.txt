@@ -1,0 +1,1 @@
+BER sweep written                                          expected yes    got yes    ok

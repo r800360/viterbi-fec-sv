@@ -1,0 +1,7 @@
+{"vcd": "build/tb_link.vcd", "title": "Host reads the ID register over the UART: command 0x7F, reply 46 45 43 31 (\"FEC1\", LSB first)",
+ "t0": 0, "t1": 17.5, "unit": "us", "width": 960,
+ "signals": [{"name": "tb_link.host_tx", "label": "host -> link"},
+   {"name": "tb_link.dut.rx_valid", "label": "byte received"}, {"name": "tb_link.dut.rx_data", "label": "received", "radix": "hex"},
+   {"name": "tb_link.dut.hs", "label": "host FSM", "radix": "dec"},
+   {"name": "tb_link.dut.tx_start", "label": "send byte"}, {"name": "tb_link.dut.tx_data", "label": "sent", "radix": "hex"},
+   {"name": "tb_link.dut_tx", "label": "link -> host"}]}

@@ -1,0 +1,3 @@
+decoded 24 bits, K=3 Q=1 D=32, vectors build/vectors/dec_k3_worked_example
+RESULT: PASS 25 checks
+- tb/tb_viterbi.sv:68: Verilog $finish

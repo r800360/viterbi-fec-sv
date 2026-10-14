@@ -1,0 +1,11 @@
+{"vcd": "build/tb_viterbi.vcd", "title": "Viterbi decoder start-up (K=3, depth 16, error-free input): path metrics and the first decoded bits",
+ "t0": 20, "t1": 250, "unit": "ns", "width": 960,
+ "signals": [{"name": "tb_viterbi.clk", "label": "clk", "grid": true},
+   {"name": "tb_viterbi.in_valid", "label": "in_valid"},
+   {"name": "tb_viterbi.r1", "label": "sym1 received"}, {"name": "tb_viterbi.r0", "label": "sym0 received"},
+   {"divider": "path metrics (start-up penalty 64 on states 1-3)"},
+   {"name": "tb_viterbi.pm0", "label": "state 00", "radix": "dec"}, {"name": "tb_viterbi.pm1", "label": "state 01", "radix": "dec"},
+   {"name": "tb_viterbi.pm2", "label": "state 10", "radix": "dec"}, {"name": "tb_viterbi.pm3", "label": "state 11", "radix": "dec"},
+   {"name": "tb_viterbi.dut.best", "label": "best state", "radix": "dec"},
+   {"divider": "output, 16 symbols later"},
+   {"name": "tb_viterbi.out_valid", "label": "out_valid"}, {"name": "tb_viterbi.out_bit", "label": "out_bit"}]}

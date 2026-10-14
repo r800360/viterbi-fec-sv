@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">
+<rect width="900" height="420" fill="#ffffff"/>
+<text x="78" y="24" font-size="15" font-weight="bold" fill="#1f2328">Decoded bit error rate, binary symmetric channel, hard decisions</text>
+<line x1="78" y1="358.0" x2="706" y2="358.0" stroke="#eaeef2"/>
+<text x="72" y="362.0" text-anchor="end" fill="#57606a">1e-5</text>
+<line x1="78" y1="295.2" x2="706" y2="295.2" stroke="#eaeef2"/>
+<text x="72" y="299.2" text-anchor="end" fill="#57606a">1e-4</text>
+<line x1="78" y1="232.4" x2="706" y2="232.4" stroke="#eaeef2"/>
+<text x="72" y="236.4" text-anchor="end" fill="#57606a">0.001</text>
+<line x1="78" y1="169.6" x2="706" y2="169.6" stroke="#eaeef2"/>
+<text x="72" y="173.6" text-anchor="end" fill="#57606a">0.01</text>
+<line x1="78" y1="106.8" x2="706" y2="106.8" stroke="#eaeef2"/>
+<text x="72" y="110.8" text-anchor="end" fill="#57606a">0.1</text>
+<line x1="78" y1="44.0" x2="706" y2="44.0" stroke="#eaeef2"/>
+<text x="72" y="48.0" text-anchor="end" fill="#57606a">1</text>
+<text transform="translate(18,201.0) rotate(-90)" text-anchor="middle" fill="#1f2328">bit error rate</text>
+<rect x="78" y="44" width="628" height="314" fill="none" stroke="#8c959f"/>
+<line x1="177.2" y1="44" x2="177.2" y2="358" stroke="#f3f4f6"/>
+<text x="177.2" y="374" text-anchor="middle" fill="#57606a">2</text>
+<line x1="309.4" y1="44" x2="309.4" y2="358" stroke="#f3f4f6"/>
+<text x="309.4" y="374" text-anchor="middle" fill="#57606a">4</text>
+<line x1="441.6" y1="44" x2="441.6" y2="358" stroke="#f3f4f6"/>
+<text x="441.6" y="374" text-anchor="middle" fill="#57606a">6</text>
+<line x1="573.8" y1="44" x2="573.8" y2="358" stroke="#f3f4f6"/>
+<text x="573.8" y="374" text-anchor="middle" fill="#57606a">8</text>
+<line x1="706.0" y1="44" x2="706.0" y2="358" stroke="#f3f4f6"/>
+<text x="706.0" y="374" text-anchor="middle" fill="#57606a">10</text>
+<text x="392.0" y="398" text-anchor="middle" fill="#1f2328">channel bit error probability (%)</text>
+<polyline fill="none" stroke="#0969da" stroke-width="2" stroke-dasharray="6 4" points="78.0,188.5 111.1,169.6 177.2,150.7 243.3,139.6 309.4,131.8 375.5,125.7 441.6,120.7 573.8,112.9 706.0,106.8"/>
+<circle cx="78.0" cy="188.5" r="3" fill="#0969da"/>
+<circle cx="111.1" cy="169.6" r="3" fill="#0969da"/>
+<circle cx="177.2" cy="150.7" r="3" fill="#0969da"/>
+<circle cx="243.3" cy="139.6" r="3" fill="#0969da"/>
+<circle cx="309.4" cy="131.8" r="3" fill="#0969da"/>
+<circle cx="375.5" cy="125.7" r="3" fill="#0969da"/>
+<circle cx="441.6" cy="120.7" r="3" fill="#0969da"/>
+<circle cx="573.8" cy="112.9" r="3" fill="#0969da"/>
+<circle cx="706.0" cy="106.8" r="3" fill="#0969da"/>
+<polyline fill="none" stroke="#cf222e" stroke-width="2" points="78.0,274.1 111.1,240.9 177.2,204.8 243.3,183.1 309.4,168.1 375.5,156.6 441.6,147.2 573.8,132.8 706.0,122.0"/>
+<circle cx="78.0" cy="274.1" r="3" fill="#cf222e"/>
+<circle cx="111.1" cy="240.9" r="3" fill="#cf222e"/>
+<circle cx="177.2" cy="204.8" r="3" fill="#cf222e"/>
+<circle cx="243.3" cy="183.1" r="3" fill="#cf222e"/>
+<circle cx="309.4" cy="168.1" r="3" fill="#cf222e"/>
+<circle cx="375.5" cy="156.6" r="3" fill="#cf222e"/>
+<circle cx="441.6" cy="147.2" r="3" fill="#cf222e"/>
+<circle cx="573.8" cy="132.8" r="3" fill="#cf222e"/>
+<circle cx="706.0" cy="122.0" r="3" fill="#cf222e"/>
+<polyline fill="none" stroke="#1a7f37" stroke-width="2" points="78.0,344.1 111.1,306.2 177.2,239.6 243.3,215.4 309.4,192.6 375.5,176.2 441.6,159.6 573.8,136.4 706.0,117.9"/>
+<circle cx="78.0" cy="344.1" r="3" fill="#1a7f37"/>
+<circle cx="111.1" cy="306.2" r="3" fill="#1a7f37"/>
+<circle cx="177.2" cy="239.6" r="3" fill="#1a7f37"/>
+<circle cx="243.3" cy="215.4" r="3" fill="#1a7f37"/>
+<circle cx="309.4" cy="192.6" r="3" fill="#1a7f37"/>
+<circle cx="375.5" cy="176.2" r="3" fill="#1a7f37"/>
+<circle cx="441.6" cy="159.6" r="3" fill="#1a7f37"/>
+<circle cx="573.8" cy="136.4" r="3" fill="#1a7f37"/>
+<circle cx="706.0" cy="117.9" r="3" fill="#1a7f37"/>
+<polyline fill="none" stroke="#8250df" stroke-width="2" points="177.2,246.3 243.3,213.7 309.4,188.6 375.5,170.4 441.6,154.6 573.8,130.4 706.0,115.1"/>
+<circle cx="177.2" cy="246.3" r="3" fill="#8250df"/>
+<circle cx="243.3" cy="213.7" r="3" fill="#8250df"/>
+<circle cx="309.4" cy="188.6" r="3" fill="#8250df"/>
+<circle cx="375.5" cy="170.4" r="3" fill="#8250df"/>
+<circle cx="441.6" cy="154.6" r="3" fill="#8250df"/>
+<circle cx="573.8" cy="130.4" r="3" fill="#8250df"/>
+<circle cx="706.0" cy="115.1" r="3" fill="#8250df"/>
+<line x1="718" y1="51" x2="736" y2="51" stroke="#0969da" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="742" y="55" fill="#1f2328">uncoded</text>
+<line x1="718" y1="68" x2="736" y2="68" stroke="#cf222e" stroke-width="3"/>
+<text x="742" y="72" fill="#1f2328">Hamming (8,4) SEC-DED</text>
+<line x1="718" y1="85" x2="736" y2="85" stroke="#1a7f37" stroke-width="3"/>
+<text x="742" y="89" fill="#1f2328">K=3 (7,5) Viterbi, depth 32</text>
+<line x1="718" y1="102" x2="736" y2="102" stroke="#8250df" stroke-width="3"/>
+<text x="742" y="106" fill="#1f2328">LTE RSC K=4 Viterbi, depth 40</text>
+<text x="78" y="414" font-size="11" fill="#57606a">59968 bits per point; points with no errors are not drawn. All codes are rate 1/2.</text>
+</svg>

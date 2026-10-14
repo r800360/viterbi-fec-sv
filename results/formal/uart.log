@@ -1,0 +1,7 @@
+[fec_uart] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:01 (1)
+[fec_uart] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:01 (1)
+[fec_uart] summary: engine_0 (smtbmc z3) returned pass for basecase
+[fec_uart] summary: engine_0 (smtbmc z3) returned pass for induction
+[fec_uart] summary: engine_0 did not produce any traces
+[fec_uart] summary: successful proof by k-induction.
+[fec_uart] DONE (PASS, rc=0)

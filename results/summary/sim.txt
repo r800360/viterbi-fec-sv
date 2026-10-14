@@ -1,0 +1,24 @@
+viterbi_k3_hard_d16_clean (icarus)                         expected PASS   got PASS   ok
+viterbi_k3_hard_d16_clean (verilator)                      expected PASS   got PASS   ok
+viterbi_k3_hard_d32_bsc5 (icarus)                          expected PASS   got PASS   ok
+viterbi_k3_hard_d32_bsc5 (verilator)                       expected PASS   got PASS   ok
+viterbi_k3_hard_d32_bsc10 (icarus)                         expected PASS   got PASS   ok
+viterbi_k3_hard_d32_bsc10 (verilator)                      expected PASS   got PASS   ok
+viterbi_lte_hard_d40_clean (icarus)                        expected PASS   got PASS   ok
+viterbi_lte_hard_d40_clean (verilator)                     expected PASS   got PASS   ok
+viterbi_lte_hard_d40_bsc5 (icarus)                         expected PASS   got PASS   ok
+viterbi_lte_hard_d40_bsc5 (verilator)                      expected PASS   got PASS   ok
+viterbi_k3_soft3_d32_awgn2 (icarus)                        expected PASS   got PASS   ok
+viterbi_k3_soft3_d32_awgn2 (verilator)                     expected PASS   got PASS   ok
+viterbi_lte_soft3_d40_awgn2 (icarus)                       expected PASS   got PASS   ok
+viterbi_lte_soft3_d40_awgn2 (verilator)                    expected PASS   got PASS   ok
+viterbi_k3_soft3_d24_awgn0 (icarus)                        expected PASS   got PASS   ok
+viterbi_k3_soft3_d24_awgn0 (verilator)                     expected PASS   got PASS   ok
+viterbi_k3_worked_example (icarus)                         expected PASS   got PASS   ok
+viterbi_k3_worked_example (verilator)                      expected PASS   got PASS   ok
+blocks (icarus)                                            expected PASS   got PASS   ok
+blocks (verilator)                                         expected PASS   got PASS   ok
+link (icarus)                                              expected PASS   got PASS   ok
+link (verilator)                                           expected PASS   got PASS   ok
+link counters = model (icarus)                             expected PASS   got PASS   ok
+link counters = model (verilator)                          expected PASS   got PASS   ok

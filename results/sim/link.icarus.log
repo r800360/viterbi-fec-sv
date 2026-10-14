@@ -1,0 +1,11 @@
+LINK uncoded_p2 code=0 mode=1 thresh=1311 mask=0 period=0 burst=0 nsrc=25880 bits=25865 errors=523 flips=1016 ham_corrected=0 ham_double=0
+LINK k3_p2 code=1 mode=1 thresh=1311 mask=0 period=0 burst=0 nsrc=25880 bits=25833 errors=15 flips=1016 ham_corrected=0 ham_double=0
+LINK lte_p2 code=2 mode=1 thresh=1311 mask=0 period=0 burst=0 nsrc=25880 bits=25825 errors=13 flips=1016 ham_corrected=0 ham_double=0
+LINK hamming_p2 code=3 mode=1 thresh=1311 mask=0 period=0 burst=0 nsrc=25880 bits=25857 errors=85 flips=1016 ham_corrected=864 ham_double=72
+LINK k3_p5 code=1 mode=1 thresh=3277 mask=0 period=0 burst=0 nsrc=25880 bits=25833 errors=266 flips=2593 ham_corrected=0 ham_double=0
+LINK lte_p5 code=2 mode=1 thresh=3277 mask=0 period=0 burst=0 nsrc=25880 bits=25825 errors=320 flips=2593 ham_corrected=0 ham_double=0
+LINK k3_pair_b0 code=1 mode=2 thresh=0 mask=1 period=16 burst=2 nsrc=20880 bits=20833 errors=0 flips=2578 ham_corrected=0 ham_double=0
+LINK lte_burst4_b1 code=2 mode=2 thresh=0 mask=2 period=32 burst=4 nsrc=20880 bits=20825 errors=1098 flips=2580 ham_corrected=0 ham_double=0
+LINK lte_pair_b10 code=2 mode=2 thresh=0 mask=3 period=32 burst=2 nsrc=20880 bits=20825 errors=1707 flips=2580 ham_corrected=0 ham_double=0
+LINK hamming_pair_b10 code=3 mode=2 thresh=0 mask=3 period=32 burst=2 nsrc=20880 bits=20857 errors=2580 flips=2580 ham_corrected=0 ham_double=645
+RESULT: PASS 22 checks

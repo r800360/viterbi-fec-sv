@@ -1,0 +1,7 @@
+formal hamming                                             expected PASS   got PASS   ok
+formal encoder                                             expected PASS   got PASS   ok
+formal viterbi                                             expected PASS   got PASS   ok
+formal viterbi_offbyone                                    expected FAIL   got FAIL   ok
+formal prbs7                                               expected PASS   got PASS   ok
+formal uart                                                expected PASS   got PASS   ok
+formal uart_cover                                          expected PASS   got PASS   ok

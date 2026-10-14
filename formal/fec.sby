@@ -1,0 +1,52 @@
+[tasks]
+hamming
+encoder
+viterbi
+viterbi_offbyone
+prbs7
+uart
+uart_cover
+
+[options]
+hamming: mode prove
+hamming: depth 1
+encoder: mode prove
+viterbi: mode bmc
+viterbi: depth 40
+viterbi_offbyone: mode bmc
+viterbi_offbyone: depth 20
+prbs7: mode bmc
+prbs7: depth 140
+uart: mode prove
+uart: depth 24
+uart_cover: mode cover
+uart_cover: depth 80
+
+[engines]
+encoder: abc pdr
+viterbi: abc bmc3
+viterbi_offbyone: smtbmc z3
+prbs7: smtbmc z3
+hamming: smtbmc z3
+uart: smtbmc z3
+uart_cover: smtbmc z3
+
+[script]
+read_verilog -sv prbs.sv conv_encoder.sv viterbi_decoder.sv hamming84.sv uart.sv
+~viterbi_offbyone: read_verilog -sv -formal fec_formal.sv
+viterbi_offbyone: read_verilog -sv -formal -DOFF_BY_ONE fec_formal.sv
+hamming: prep -top hamming_props
+encoder: prep -top encoder_spec
+viterbi: prep -top viterbi_clean
+viterbi_offbyone: prep -top viterbi_clean
+prbs7: prep -top prbs7_period
+uart: prep -top uart_props
+uart_cover: prep -top uart_props
+
+[files]
+prbs.sv ../rtl/prbs.sv
+conv_encoder.sv ../rtl/conv_encoder.sv
+viterbi_decoder.sv ../rtl/viterbi_decoder.sv
+hamming84.sv ../rtl/hamming84.sv
+uart.sv ../rtl/uart.sv
+fec_formal.sv fec_formal.sv

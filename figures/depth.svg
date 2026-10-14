@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">
+<rect width="760" height="420" fill="#ffffff"/>
+<text x="78" y="24" font-size="15" font-weight="bold" fill="#1f2328">Register-exchange survivor depth vs. full maximum-likelihood decoding (K=3, 3 % BSC)</text>
+<line x1="78" y1="358.0" x2="736" y2="358.0" stroke="#eaeef2"/>
+<text x="72" y="362.0" text-anchor="end" fill="#57606a">0.001</text>
+<line x1="78" y1="44.0" x2="736" y2="44.0" stroke="#eaeef2"/>
+<text x="72" y="48.0" text-anchor="end" fill="#57606a">0.01</text>
+<text transform="translate(18,201.0) rotate(-90)" text-anchor="middle" fill="#1f2328">bit error rate</text>
+<rect x="78" y="44" width="658" height="314" fill="none" stroke="#8c959f"/>
+<line x1="167.7" y1="44" x2="167.7" y2="358" stroke="#f3f4f6"/>
+<text x="167.7" y="374" text-anchor="middle" fill="#57606a">10</text>
+<line x1="317.3" y1="44" x2="317.3" y2="358" stroke="#f3f4f6"/>
+<text x="317.3" y="374" text-anchor="middle" fill="#57606a">20</text>
+<line x1="466.8" y1="44" x2="466.8" y2="358" stroke="#f3f4f6"/>
+<text x="466.8" y="374" text-anchor="middle" fill="#57606a">30</text>
+<line x1="616.4" y1="44" x2="616.4" y2="358" stroke="#f3f4f6"/>
+<text x="616.4" y="374" text-anchor="middle" fill="#57606a">40</text>
+<text x="407.0" y="398" text-anchor="middle" fill="#1f2328">survivor depth D (symbols of latency)</text>
+<polyline fill="none" stroke="#0969da" stroke-width="2" points="78.0,105.2 107.9,239.6 137.8,271.7 167.7,296.8 197.6,304.2 257.5,304.2 377.1,302.7 496.7,302.6 736.0,302.6"/>
+<circle cx="78.0" cy="105.2" r="3" fill="#0969da"/>
+<circle cx="107.9" cy="239.6" r="3" fill="#0969da"/>
+<circle cx="137.8" cy="271.7" r="3" fill="#0969da"/>
+<circle cx="167.7" cy="296.8" r="3" fill="#0969da"/>
+<circle cx="197.6" cy="304.2" r="3" fill="#0969da"/>
+<circle cx="257.5" cy="304.2" r="3" fill="#0969da"/>
+<circle cx="377.1" cy="302.7" r="3" fill="#0969da"/>
+<circle cx="496.7" cy="302.6" r="3" fill="#0969da"/>
+<circle cx="736.0" cy="302.6" r="3" fill="#0969da"/>
+<polyline fill="none" stroke="#cf222e" stroke-width="2" stroke-dasharray="6 4" points="78.0,302.7 107.9,302.7 137.8,302.7 167.7,302.7 197.6,302.7 257.5,302.7 377.1,302.7 496.7,302.7 736.0,302.7"/>
+<rect x="84" y="46" width="205" height="16" fill="#ffffff" fill-opacity="0.85"/>
+<line x1="88" y1="53" x2="106" y2="53" stroke="#0969da" stroke-width="3"/>
+<text x="112" y="57" fill="#1f2328">register-exchange decoder</text>
+<rect x="84" y="63" width="282" height="16" fill="#ffffff" fill-opacity="0.85"/>
+<line x1="88" y1="70" x2="106" y2="70" stroke="#cf222e" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="112" y="74" fill="#1f2328">maximum-likelihood (full trace-back)</text>
+<text x="78" y="414" font-size="11" fill="#57606a">From about D = 4K = 12 the fixed-latency decoder matches maximum-likelihood decoding.</text>
+</svg>

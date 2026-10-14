@@ -1,0 +1,9 @@
+k3_hard_d16_clean symbols=3000 decoded=2984 bit_errors_vs_input=0
+k3_hard_d32_bsc5 symbols=3000 decoded=2968 bit_errors_vs_input=23
+k3_hard_d32_bsc10 symbols=3000 decoded=2968 bit_errors_vs_input=135
+lte_hard_d40_clean symbols=3000 decoded=2960 bit_errors_vs_input=0
+lte_hard_d40_bsc5 symbols=3000 decoded=2960 bit_errors_vs_input=29
+k3_soft3_d32_awgn2 symbols=3000 decoded=2968 bit_errors_vs_input=36
+lte_soft3_d40_awgn2 symbols=3000 decoded=2960 bit_errors_vs_input=67
+k3_soft3_d24_awgn0 symbols=3000 decoded=2976 bit_errors_vs_input=414
+k3_worked_example decoded first 16 bits = 0001110001101000

@@ -1,0 +1,5 @@
+utilization: ICESTORM_LC 269/7680, SB_GB 3/8, SB_IO 7/256
+Fmax clk: 116.52 MHz (constraint 48.00 MHz)
+worst input -> register: 10.69 ns, 11 logic cells
+worst register -> output: 1.67 ns, 0 logic cells
+worst register -> register (posedge clk): 8.58 ns, 20 logic cells
