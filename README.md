@@ -82,6 +82,9 @@ results/  every log, CSV and summary;   figures/  every SVG
 Origin: the decoder started as a university digital-design project (a trace-back Viterbi decoder for one fixed
 code), and several blocks come from smaller exercises (LFSR, UART receiver, programmable convolutional encoder,
 Hamming codes). This repository is an independent re-design: generic codes, register exchange, soft decisions, a
-bit-exact model, and the link around them.
+bit-exact model, and the link around them. Simplified versions of its add-compare-select step and of the Hamming
+decoder are also tasks in
+[rtl-reward-bench](https://github.com/r800360/rtl-reward-bench), which measures how far RTL graders can be trusted
+as rewards.
 
 MIT License, © 2026 Rohan Sachdeva.
