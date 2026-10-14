@@ -15,9 +15,12 @@ apt-get install -y --no-install-recommends \
   fpga-icestorm fpga-icestorm-chipdb \
   graphviz=14.1.2-1ubuntu1 \
   python3 make g++ git ca-certificates
-# SymbiYosys is not packaged for Ubuntu 26.04: install the release that matches Yosys 0.52
+# SymbiYosys is not packaged for Ubuntu 26.04: build the release that matches Yosys 0.52
 if ! command -v sby > /dev/null; then
-  git clone -q --depth 1 --branch v0.52 https://github.com/YosysHQ/sby.git /tmp/sby
+  # v0.52 is an annotated tag; fetch the commit it points to, so the version cannot move
+  git -c init.defaultBranch=main init -q /tmp/sby
+  git -C /tmp/sby fetch -q --depth 1 https://github.com/YosysHQ/sby.git 1b36b27d90c99f4bd8c732532ccd88e361d5b5d9
+  git -C /tmp/sby checkout -q FETCH_HEAD
   make -C /tmp/sby install PREFIX=/usr/local > /dev/null
   rm -rf /tmp/sby
 fi

@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Install git
         run: apt-get update && apt-get install -y --no-install-recommends git ca-certificates
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Install the pinned toolchain
         run: bash scripts/install-tools.sh
       - name: Lint
@@ -45,7 +45,7 @@ jobs:
         run: cat results/SUMMARY.txt >> "$GITHUB_STEP_SUMMARY"
       - name: Upload results and figures
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: results
           path: |
@@ -60,7 +60,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: results
           path: results
